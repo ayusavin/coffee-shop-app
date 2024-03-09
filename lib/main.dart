@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'src/app.dart';
-import 'src/service_locator.dart' as sl;
+import 'package:coffee_shop/src/app.dart';
+import 'package:coffee_shop/src/service_locator.dart' as sl;
 
 void main() async {
   await sl.init();
